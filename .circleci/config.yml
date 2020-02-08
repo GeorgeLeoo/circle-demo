@@ -11,6 +11,7 @@ jobs:
           fingerprints:
             - "c6:1b:99:34:0b:14:3a:5d:80:1c:ce:ab:fd:43:99:c4"
       - checkout
+      - run:
           name: Install
           command: yarn install
       - run: 
